@@ -1,0 +1,48 @@
+Package: asterisk16
+Version: 16.21.1-2
+Architecture: armhf
+Maintainer: Gernot Bauer <gernot@raspbx.org>
+Installed-Size: 22297
+Depends: libasound2 (>= 1.0.16), libbluetooth3 (>= 4.91), libc6 (>= 2.28), libcap2 (>= 1:2.10), libcodec2-0.9, libcurl4 (>= 7.16.2), libedit2 (>= 2.11-20080614-0), libgcc1 (>= 1:3.5), libglib2.0-0 (>= 2.16.0), libgmime-3.0-0 (>= 3.0.0), libgsm1 (>= 1.0.18), libical3 (>= 3.0.0), libiksemel3 (>= 1.2), libjack-jackd2-0 (>= 1.9.10+20150825) | libjack-0.125, libldap-2.4-2 (>= 2.4.7), liblua5.2-0, libmariadb3 (>= 3.0.0), libneon27, libodbc1 (>= 2.3.1), libogg0 (>= 1.1.0), libopus0 (>= 1.1), libopusfile0 (>= 0.5), libosptk4 (>= 4.11.3), libportaudio2 (>= 19+svn20101113), libpq5, libradcli4, libresample1 (>= 0.1.3), libspandsp2 (>= 0.0.6~pre18), libspeex1 (>= 1.2~beta3-1), libspeexdsp1 (>= 1.2~beta3.2-1), libsqlite3-0 (>= 3.5.9), libsrtp2-1 (>= 2.0.0), libssl1.1 (>= 1.1.0), libstdc++6 (>= 4.1.1), libsybdb5 (>= 0.63), libtiff5 (>= 4.0.3), libunbound8 (>= 1.8.0), liburiparser1 (>= 0.6.0), libuuid1 (>= 2.16), libvorbis0a (>= 1.1.2), libvorbisenc2 (>= 1.1.2), libvorbisfile3 (>= 1.1.2), libxml2 (>= 2.7.4), libxslt1.1 (>= 1.1.25), zlib1g (>= 1:1.1.4), asterisk11-sounds
+Filename: ./packages/raspbian/asterisk16/asterisk16_16.21.1-2_armhf.deb
+Size: 6184192
+MD5sum: 138dd20aef51c9b0b67cffd2cd76c05a
+SHA1: 3f3727415a06fbc9a4166bc1231079f9efb2b779
+SHA256: 0e94b8a2549009989c3f1b111d1c728d9f5a32485fd0eaa37ec8d7a7c43cb0d4
+Section: unknown
+Priority: extra
+Homepage: http://raspbx.org
+Description: Open Source Private Branch Exchange (PBX) - udpated by ajs to debian bullseye
+
+Package: asterisk16-chandongle
+Version: 1.1-43gh
+Architecture: all
+Maintainer: Gernot Bauer <gernot@raspbx.org>
+Installed-Size: 716
+Depends: asterisk16
+Filename: ./packages/raspbian/asterisk16/asterisk16-chandongle_1.1-43gh_all.deb
+Size: 225622
+MD5sum: 90a479a39b5003b09657eba50ee7e9ee
+SHA1: 61d2a8c932f636541e8f2e36a840f5864cdf4e9a
+SHA256: 4528275dc8b94945bcf1c979e2cef496bd9fdbf0dcdad91ab14fccb8b436767c
+Section: unknown
+Priority: extra
+Homepage: http://raspbx.org
+Description: Chan_dongle Huawei USB modem channel driver for Asterisk 16
+
+Package: asterisk16-codecg729
+Version: 1.2
+Architecture: all
+Maintainer: Gernot Bauer <gernot@raspbx.org>
+Installed-Size: 256
+Depends: asterisk16
+Filename: ./packages/raspbian/asterisk16/asterisk16-codecg729_1.2_all.deb
+Size: 40984
+MD5sum: ce6cd983a6fa5db1e9c204ca8161afaf
+SHA1: f18153da85ba712c6e109dc7921f945dd2f21336
+SHA256: 15a4dc20088de1306724040e3305296617d1bcef0608ae7ae3c1c3cc6f463162
+Section: unknown
+Priority: extra
+Homepage: http://raspbx.org
+Description: g729 Coder/Decoder, based on Bcg729, for Asterisk 16
+
