@@ -2,8 +2,8 @@
 
 ## Usage (General for all packages)
 ```bash
-curl -SsL https://bochinche.github.io/ppa/KEY.gpg | sudo apt-key add -
-sudo curl -SsL -o /etc/apt/sources.list.d/assafmo.list https://bochinche.github.io/ppa/ubuntu/assafmo.list
+curl -SsL https://bochinche.github.io/ppa/bochinche_KEY.gpg | sudo apt-key add -
+sudo curl -SsL -o /etc/apt/sources.list.d/bochinche_ppa.list https://bochinche.github.io/ppa/bochinche_list_file.list
 sudo apt update
 ```
 
