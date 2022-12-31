@@ -33,3 +33,4 @@ You will still need to copy and edit the init file by yourself.
 - [Change the dependencies of a deb package](https://coderwall.com/p/hes3ha/change-the-dependencies-of-a-deb-package)
 - [How to let `dpkg -i` install dependencies for me?](https://askubuntu.com/questions/40011/how-to-let-dpkg-i-install-dependencies-for-me)
 - [Create a tar.xz in one command](https://stackoverflow.com/questions/18855850/create-a-tar-xz-in-one-command)
+- [Hosting your own PPA repository on GitHub](https://assafmo.github.io/2019/05/02/ppa-repo-hosted-on-github.html)
