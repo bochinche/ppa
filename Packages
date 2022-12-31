@@ -1,3 +1,18 @@
+Package: asterisk11-sounds
+Version: 11.0.0-1
+Architecture: all
+Maintainer: Gernot Bauer <gernot@raspbx.org>
+Installed-Size: 151678
+Filename: ./packages/raspbian/asterisk16/asterisk11-sounds_11.0.0-1_all.deb
+Size: 134624234
+MD5sum: c8c412b9dfa0dffb9adaef29beb61969
+SHA1: 0a756a2539549baeadcd16b9387be7faf29dbe13
+SHA256: 684bb3a781b43c78af35e0b9b1ee09648d52dd7750d49433590b25e33c9874fe
+Section: unknown
+Priority: extra
+Homepage: http://raspbx.org
+Description: Open Source Private Branch Exchange (PBX) Sounds
+
 Package: asterisk16
 Version: 16.21.1-2
 Architecture: armhf
