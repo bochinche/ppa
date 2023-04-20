@@ -25,7 +25,7 @@ You will need to copy and edit the init file yourself.
 ```bash
 sudo curl -SsL -o /etc/init.de/asterisk https://bochinche.github.io/ppa/init_files/asterisk
 sudo systemctl enable asterisk 
-systemctl status asterisk 
+sudo systemctl status asterisk 
 ```
 
 
