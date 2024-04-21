@@ -9,13 +9,14 @@ sudo apt update
 
 ## Packages
 ### asterisk16 for raspbian on raspberrypi (bullseye)
-This package is based on the work of the people at http://www.raspberry-asterisk.org. According to this [page](http://www.raspberry-asterisk.org/downloads/), the project's contributors will not be able to use the latest Pi 4 HW. 
+This package is based on the work of the people at <http://www.raspberry-asterisk.org> / <http://www.raspbx.org/> . According to this [page](http://www.raspberry-asterisk.org/downloads/) or <http://www.raspbx.org/downloads/>, the project's contributors will not be able to use the latest Pi 4 HW. 
 
-The dependencies of the asterisk16 package have been modified to support the latest raspbian release. Specifically, **libcodec2-0.8.1** has been replaced with **libcodec2-0.9**.
+The dependencies of the **asterisk16** package have been modified to support the latest raspbian release. 
+--> Specifically, **libcodec2-0.8.1** has been replaced with **libcodec2-0.9**.
 
 If needed, this [page](https://www.dslreports.com/forum/r30661088-PBX-FreePBX-for-the-Raspberry-Pi) contains information on how to build the project yourself. 
 
-The project's original repository can be found at http://repo.raspbx.org/apt/debian/pool/main/a/. 
+The project's original repository can be found at <http://repo.raspbx.org/apt/debian/pool/main/a/>. 
 
 To install the deb of the project, use the following command
 ```bash
