@@ -22,13 +22,13 @@ To install the deb of the project, use the following command
 ```bash
 sudo apt install asterisk11-sounds asterisk16 asterisk16-chandongle asterisk16-codecg729 
 ```
-You will need to copy and edit the init file yourself. 
+
+You will need to copy and edit the init file yourself.
 ```bash
 sudo curl -SsL -o /etc/init.de/asterisk https://bochinche.github.io/ppa/init_files/asterisk
 sudo systemctl enable asterisk 
 sudo systemctl status asterisk 
 ```
-
 
 # Sources & Documentation / Links
 - original asterisk project these packages are based on http://www.raspberry-asterisk.org
